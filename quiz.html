@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TECHNOSOFT -Interview-Questions</title>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="src/styles/designSystem.css">
+    <link rel="icon" href="src/images/Logo/favicon.ico">
+    <link rel="stylesheet" href="./dist/css/style.css" />
+  </head>
+  <body>
+  <!--nav-->  
+  <div class="hero">
+    <div class="navbar container">
+      <div class="navbar__logo">
+        <img src="src/images/Logo/LogoCompany.png" alt="" class="navbar__logo--image">
+        <div class="navbar__logo--text"></div>
+      </div>
+    
+      <div class="navbar__menu hidden">
+        <a href="index.html" class="navbar__menu--1">Home</a>
+        <a href="portfolio.html" class="navbar__menu--2">Portfolio</a>
+        <a href="services.html" class="navbar__menu--3">Services</a>
+        <a href="contact.html" class="navbar__menu--4">Contact</a>
+        <a href="start.html" class="navbar__menu--5">Interview-Test</a>
+      </div>     
+    </div>
+   <!--end nav -->
+
+    <div class="wrapper">
+      <div class="quiz">
+        <div class="quiz_header">
+          <div class="quiz_user">
+            <h4>Online Interview-Test <span class="name"></span></h4>
+          </div>
+          <div class="quiz_timer">
+            <span class="time">00:00</span>
+          </div>
+        </div>
+        <div class="quiz_body">
+          <div id="questions">
+          
+
+            <!-- <ul class="option_group">
+              <li class="option">option 1</li>
+              <li class="option">option 2</li>
+              <li class="option">option 3</li>
+              <li class="option">option 4</li>
+            </ul> -->
+          </div>
+
+          <button class="btn-next" onclick="next()">Next Question</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- start -->
+      <script src="src/js/start.js"></script>
+
+    <!-- site -->
+      <script src="src/js/site.js"></script>
+
+    <!-- timer -->     
+     <script src="src/js/timer.js"></script>
+
+    <!-- user info -->
+     <script src="src/js/userInfo.js"></script>
+
+
+
+  </body>
+</html>
